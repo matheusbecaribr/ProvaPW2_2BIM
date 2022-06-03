@@ -1,0 +1,9 @@
+CREATE DATABASE projeto;
+USE projeto;
+
+CREATE TABLE usuario(
+	cd INT PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR(45),
+	email VARCHAR(45)
+);
+
